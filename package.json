@@ -1,0 +1,25 @@
+{
+  "name": "buttonarium",
+  "version": "1.0.0",
+  "description": "All the buttons in one place.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eucalyptuss/buttonarium.git"
+  },
+  "keywords": [
+    "buttons"
+  ],
+  "author": "Mikolaj Dobrucki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eucalyptuss/buttonarium/issues"
+  },
+  "homepage": "https://github.com/eucalyptuss/buttonarium#readme",
+  "devDependencies": {
+    "gulp-sass": "^2.3.2"
+  }
+}
