@@ -133,3 +133,43 @@ h1 {
     border-color: $blue--light;
   }
 }
+
+.button--glow {
+  box-shadow: 0 0 8px 0 $blue;
+}
+
+.button--glow-hover {
+  &:hover {
+    box-shadow: 0 0 10px 1px $blue;
+  }
+  &:active {
+    box-shadow: 0 0 12px 2px $blue;
+  }
+}
+
+.button--glow.button--dark-hover {
+  &:hover {
+    box-shadow: 0 0 8px 0 $blue--dark;
+  }
+  &:active {
+    box-shadow: 0 0 8px 0 $blue--darker;
+  }
+}
+
+.button--glow.button--light-hover {
+  &:hover {
+    box-shadow: 0 0 8px 0 $blue--light;
+  }
+  &:active {
+    box-shadow: 0 0 8px 0 $blue--lighter;
+  }
+}
+
+.button--scale-hover {
+  &:hover {
+    transform: scale(1.05);
+  }
+  &:active {
+    transform: scale(1);
+  }
+}
