@@ -1,5 +1,51 @@
+$blue: #2a85f5;
+
 html {
   margin: 0;
   padding: 0;
   font-size: 16px;
+}
+
+body {
+  box-sizing: border-box;
+  background: #e4e8ea;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #2e3438;
+  opacity: .1;
+  font-size: 3rem;
+  margin: 4rem;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  max-width: 60rem;
+  margin: 0 auto;
+
+}
+.item {
+  background: #f6f8f9;
+  width: 18rem;
+  height: 12rem;
+  margin: 1rem;
+  border-radius: 4px;
+}
+.button {
+  box-sizing: border-box;
+  display: inline-block;
+  text-decoration: none;
+  padding: .75rem 1rem;
+  margin: 5rem;
+  line-height: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.button--default-flat {
+  background: $blue;
+  color: white;
 }
