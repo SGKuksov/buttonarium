@@ -21,9 +21,7 @@
   },
   "homepage": "https://github.com/eucalyptuss/buttonarium#readme",
   "devDependencies": {
+    "gulp": "^3.9.1",
     "gulp-sass": "^2.3.2"
-  },
-  "dependencies": {
-    "gulp": "^3.9.1"
   }
 }
